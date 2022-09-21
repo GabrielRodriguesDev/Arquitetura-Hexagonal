@@ -1,0 +1,7 @@
+docker-compose up -d => Subir o container com base no dockerfile (mesma pasta).
+
+docker-compose down => Derrubar container.
+
+docker exec -it appproduct bash
+
+go mod init github.com/codeedu/go-hexagonal 
