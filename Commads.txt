@@ -5,3 +5,5 @@ docker-compose down => Derrubar container.
 docker exec -it appproduct bash
 
 go mod init github.com/codeedu/go-hexagonal 
+
+mockgen -destination=application/mocks/application.go -source=application/product.go application
